@@ -3,8 +3,7 @@ def roll():
     num=random.randint(1,6)
     print(num)
 while True:
-    print('Do you want to Roll a Dice\nY/y or N/n')
-    a=input()
+    a=input('Do you want to Roll a Dice\nY/y or N/n')
     if a=='Y' or a=='y':
         print("you got")
         roll()
