@@ -5,8 +5,8 @@ chance = maxGuess
 while guessCount < maxGuess:
     import random
     comp_num = random.randint(1, 10)
-
     guessCount = guessCount+1
+
     print(f'You have {chance} chances to guess:')
     user_num = int(input(f'{guessCount}. enter your guess:'))
     print(f'Your guess:', user_num)
