@@ -6,7 +6,7 @@ def roll():
 
 while True:
     val = roll()
-    a = input('Do you want to Roll a Dice\nY/y or N/n')
+    a = input('Do you want to Roll a Dice\nY/y or N/n ')
     if a == 'Y' or a == 'y':
         print("you got:", val)
 
